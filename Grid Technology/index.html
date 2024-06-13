@@ -1,0 +1,124 @@
+<!-- Мельников Артем, 10 группа -->
+<!-- Задание 9. Сверстать сайт с помощью технологии Grid -->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="img/favicon.png" rel="shortcut icon" type="image/png">
+  <title>Grid</title>
+</head>
+
+<body>
+  <!-- Оболочка (grid-контейнер) -->
+  <div class="wrapper">
+    <!-- Шапка (grid - элемент) -->
+    <header class="header">
+      <a href="index.html" class="header__logo"></a>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li><a href="#" class="header__link">Пункт меню</a></li>
+          <li><a href="#" class="header__link">Пункт меню</a></li>
+          <li><a href="#" class="header__link">Пункт меню</a></li>
+          <li><a href="#" class="header__link">Пункт меню</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Контент (grid-элемент + grid-контейнер) -->
+    <main class="main">
+      <!-- Сайдбар (grid-элемент) -->
+      <aside class="sidebar">
+        <nav class="sidebar__menu">
+          <ul class="sidebar__list">
+            <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+            <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+            <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+            <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+            <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Контент (grid-элемент) -->
+      <section class="content">
+        <h1>Прекрасная Швейцария</h1>
+        <section class="content__gallery gallery">
+          <h2 class="gallery__title">Галерея</h2>
+          <div class="gallery__items">
+            <div class="gallery__item gallery__item_big">
+              <img src="img/01.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/02.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/03.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/04.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/05.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/06.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/07.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item gallery__item_big">
+              <img src="img/08.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/09.jpg" alt="Природа">
+            </div>
+            <div class="gallery__item">
+              <img src="img/10.jpg" alt="Природа">
+            </div>
+          </div>
+        </section>
+
+        <section class="content__products products">
+          <h2 class="products__title">Товары</h2>
+          <div class="products__items">
+            <div class="products__item">
+              <div class="products__image">
+                <img src="img/watch.jpg" alt="Часы">
+              </div>
+              <div class="products__name">Часы &laquo;Rolex&raquo;</div>
+              <a href="#" class="products__button">Купить</a>
+            </div>
+
+            <div class="products__item">
+              <div class="products__image">
+                <img src="img/knife.jpg" alt="Перочинные ножи">
+              </div>
+              <div class="products__name">Перочинные ножи и&nbsp;маникюрные наборы</div>
+              <a href="#" class="products__button">Купить</a>
+            </div>
+
+            <div class="products__item">
+              <div class="products__image">
+                <img src="img/chocolate.jpg" alt="Шоколад">
+              </div>
+              <div class="products__name">Шоколад</div>
+              <a href="#" class="products__button">Купить</a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__copy">
+        <a href="mailto:arkabrik18@mail.ru">&copy;&nbsp;А.&nbsp;Мельников, 2022</a>
+      </div>
+      <div class="footer__text">Красота внутри нас</div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

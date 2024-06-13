@@ -1,0 +1,206 @@
+<!-- Мельников Артем, 10 группа -->
+<!-- Задание 9. Сверстать сайт с помощью технологии FlexBox -->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="img/favicon.png" rel="shortcut icon" type="image/png">
+  <title>FlexBox</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <div class="header">
+        <div class='container'>
+          <div class="header__row">
+            <div class="header__body">
+              <div class="header__title">FlexBox Technology</div>
+              <ul class="header__list">
+                <li>Простой синтаксис</li>
+                <li>&laquo;Резиновые&raquo; блоки</li>
+                <li>Выравнивание по&nbsp;вертикали и&nbsp;горизонтали</li>
+                <li>Идеально адаптирован для всех языков мира</li>
+              </ul>
+            </div>
+            <div class="header__image">
+              <img src="img/flex_img.png" alt="FlexBox Technology" title="FlexBox Technology">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="what">
+        <div class='container'>
+          <div class="what__row">
+            <div class="what__image">
+              <img src="img/scheme.jpg" alt="Схема FlexBox" title="Схема FlexBox">
+            </div>
+            <div class="what__body">
+              <div class="what__title title ">Что такое FlexBox?</div>
+              <div class="what__text">
+                <p>
+                  FlexBox&nbsp;&mdash; это целый модуль, содержащий в&nbsp;себе набор свойств и&nbsp;их&nbsp;значений
+                  как для родителя flex-контейнера так и&nbsp;для его дочерних элементов flex-элементов.
+                </p>
+                <p>
+                  Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту пространства
+                  вокруг и&nbsp;порядок flex-элементов, для того чтобы наилучшим образом заполнить доступное
+                  пространство flex-контейнера
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class='container'>
+          <div class="columns__title title">Свойства для родителя и дочерних элементов</div>
+          <div class="columns__row">
+
+            <div class="columns__column">
+              <div class="columns__item item">
+                <div class="item__row">
+                  <div class="item__image">
+                    <img src="img/direction.png" alt="Flex-direction" title="Flex-direction">
+                  </div>
+                  <div class="item__body">
+                    <div class="item__title">Flex-direction</div>
+                    <div class="item__text">
+                      Устанавливает основную ось, таким образом определяя направление flex элементов, помещаемых
+                      в&nbsp;flex контейнер. Можно задать направление сверху вниз, слева направо и&nbsp;наоборот
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="columns__column">
+              <div class="columns__item item">
+                <div class="item__row">
+                  <div class="item__image"><img src="img/wrap.png" alt="Flex-wrap" title="Flex-wrap"></div>
+                  <div class="item__body">
+                    <div class="item__title">Flex-wrap</div>
+                    <div class="item__text">
+                      По&nbsp;умолчанию гибкие элементы будут пытаться уместиться на&nbsp;одной строке. С&nbsp;помощью
+                      этого свойства можно позволить элементам переходить на&nbsp;новую строку по&nbsp;мере
+                      необходимости
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="columns__column">
+              <div class="columns__item item">
+                <div class="item__row">
+                  <div class="item__image"><img src="img/order.png" alt="Order" title="Order"></div>
+                  <div class="item__body">
+                    <div class="item__title">Order</div>
+                    <div class="item__text">
+                      Определяет порядок, используемый для размещения flex элементов в&nbsp;их&nbsp;flex контейнере.
+                      Элементы располагаются в&nbsp;восходящем порядке по&nbsp;значению order
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="columns__column">
+              <div class="columns__item item">
+                <div class="item__row">
+                  <div class="item__image"><img src="img/grow.png" alt="Flex-grow" title="Flex-grow"></div>
+                  <div class="item__body">
+                    <div class="item__title">Flex-grow</div>
+                    <div class="item__text">
+                      Это свойство определяет способность flex элемента растягиваться в&nbsp;случае необходимости. Оно
+                      принимает значение от&nbsp;нуля, которое служит пропорцией
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="vertical">
+        <div class='container'>
+          <div class="vertical__title title">Интересные ресурсы по FlexBox Technology</div>
+          <div class="vertical__body">
+            <div class="vertical__row">
+
+              <div class="vertical__column vertical__column_1">
+                <div class="vertical__item">
+                  <div class="vertical__subtitle">Руководство</div>
+                  <div class="vertical__label">FlexBox</div>
+                  <div class="vertical__text">
+                    <p>
+                      Полное руководство по&nbsp;CSS flexbox объясняет все о&nbsp;flexbox, сосредотачиваясь
+                      на&nbsp;всех возможных свойствах для родительского элемента (контейнер flex) и&nbsp;дочерних
+                      элементов (элементы flex)
+                    </p>
+                  </div>
+                  <a href="https://habr.com/ru/post/467049/" target="_blank" class="vertical__btn">
+                    Перейти на&nbsp;сайт
+                  </a>
+                </div>
+              </div>
+
+              <div class="vertical__column vertical__column_2">
+                <div class="vertical__item">
+                  <div class="vertical__subtitle">Шпаргалка</div>
+                  <div class="vertical__label">FlexBox</div>
+                  <div class="vertical__text">
+                    <p>
+                      Данная интеративная шпаргалка представляет собой подручное средство по&nbsp;всем свойствам
+                      CSS-модулей Flexbox. Она может вам помочь освоить или просто напомнить работу технологии Flexbox.
+                    </p>
+                    <p>
+                      Переходите по&nbsp;ссылке ниже &nbsp;сохраняйте себе шпаргалку для дальнейшей работы или учебы
+                      с&nbsp;технологией!
+                    </p>
+                  </div>
+                  <a href="https://tpverstak.ru/flex-cheatsheet/" target="_blank" class="vertical__btn">Посмотреть</a>
+                </div>
+              </div>
+
+              <div class="vertical__column vertical__column_3">
+                <div class="vertical__item">
+                  <div class="vertical__subtitle">Навигатор</div>
+                  <div class="vertical__label">FlexBox</div>
+                  <div class="vertical__text">
+                    <p>
+                      На&nbsp;этом прекрасном сайте&nbsp;Вы сможете прочитать про основные свойства CSS FlexBox.
+                      Нацчиться выравнивать элементы и&nbsp;контейнеры и&nbsp;узнать о&nbsp;гибкости данной технологии
+                    </p>
+                  </div>
+                  <a href="https://html5book.ru/css3-flexbox/" target="_blank" class="vertical__btn">
+                    Перейти на&nbsp;сайт
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class='container'>
+        <div class="footer__row">
+          <div class="footer__text">
+            <a href="mailto:arkabrik18@mail.ru">&copy;&nbsp;А.&nbsp;Мельников, 2022</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
